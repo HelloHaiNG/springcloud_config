@@ -10,12 +10,12 @@ eureka:
      defaultZone: http://eureka7001.com:7001/eureka
      
 ---
- server:
-   port: 9007
- spring:
-   profiles: test
-   application:
-      name: config-client
+server:
+  port: 9007
+spring:
+  profiles: test
+  application:
+    name: config-client
  eureka:
    client:
      service-uri:
