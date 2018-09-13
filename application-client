@@ -1,0 +1,22 @@
+server:
+  port: 9006
+spring:
+  profiles: dev
+  application:
+    name: config-client
+eureka:
+  client: 
+    service-uri:
+     defaultZone: http://eureka7001.com:7001/eureka
+     
+---
+ server:
+   port: 9007
+ spring:
+   profiles: test
+   application:
+      name: config-client
+ eureka:
+   client：
+     service-uri:
+      defaultZone: http://eureka7002.com:7002/eureka
