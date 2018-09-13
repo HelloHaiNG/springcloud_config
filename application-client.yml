@@ -20,7 +20,7 @@ spring:
   profiles: test
   application:
     name: application-client
- eureka:
-   client:
-     service-uri:
-      defaultZone: http://eureka7002.com:7002/eureka
+eureka:
+  client:
+    service-uri:
+     defaultZone: http://eureka7002.com:7002/eureka
