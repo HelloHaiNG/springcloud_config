@@ -17,6 +17,6 @@ eureka:
    application:
       name: config-client
  eureka:
-   client：
+   client:
      service-uri:
       defaultZone: http://eureka7002.com:7002/eureka
